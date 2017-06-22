@@ -1,0 +1,52 @@
+body{
+	text-align: center;
+}
+img {
+    position: absolute;
+    float: left;
+    left: 0;
+    top: 0;
+    z-index: 1000;
+}
+.game-container{
+    position: relative;
+    display: inline-block;
+    text-align: initial;
+    height: 300px;
+    width: 735px;
+    background-color: #000000;
+    color: #ffffff;
+}
+div.canon{
+    
+}
+#canon{
+    position: absolute;
+    top: 260px;
+    left: 45%;
+    width: 40px;
+
+}
+div.aliens{
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+.alien{
+    width: 40px;
+}
+.shoot{
+    position: absolute;
+    width:5px;
+}
+#level-count,#score-count{
+    display: inline-block;
+    margin: 10px 20px;
+}
+#level-count{
+    float: right;
+}
+#estadio{
+    display: block;
+    text-align: center;
+}
